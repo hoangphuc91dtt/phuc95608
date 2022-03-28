@@ -1,0 +1,43 @@
+div {
+    margin-bottom: 2px;
+}
+.main-area{
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-top: 10px;
+  
+}
+.header,.topPane{
+    width: 100%;
+    height:55px;
+    background-color: rgb(255, 153, 153);
+}
+.menu   {
+    width: 100%;
+    height: 15px;
+    background-color: rgb(240, 40, 40);
+}
+
+
+.Pane {
+    display: inline-block;
+}
+.content{
+    width:69%;
+    height: 100px;
+    background-color: rgb(2, 41, 41);
+    
+}
+.right{
+    
+    width: 30%;
+    height: 100px;
+    background-color: rgb(157, 211, 211);
+}
+.foooter{
+    margin-top: -3px;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(216, 49, 208);
+}

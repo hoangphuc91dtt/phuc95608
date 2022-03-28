@@ -1,0 +1,61 @@
+div {
+    margin-bottom: 3px;
+}
+.main-area{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(160, 204, 224);
+    margin: auto;
+
+}
+
+
+
+.P {
+    display: inline-block;
+}
+.logo {
+    width: 30%;
+    height: 40px;
+    background-color: rgb(8, 22, 150);
+}
+.navigation {
+    width: 69%;
+    height: 40px;
+    background-color: rgb(16, 192, 75);
+}
+.header-banner{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(241, 91, 229);
+    margin-top: -5px;
+}
+.text-area{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(10, 61, 85);
+
+
+}
+.box {
+    display: inline-block;
+    width: 32.88%;
+    height: 230px;
+    background-color: rgb(43, 159, 226);
+}
+.b1 {
+    background-color: blue;
+}
+
+.b2 {
+    background-color: rgb(44, 236, 86);
+}
+.b3 {
+    background-color: rgb(252, 26, 195);
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(27, 158, 235);
+
+}
