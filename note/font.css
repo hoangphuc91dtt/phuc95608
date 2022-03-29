@@ -1,0 +1,41 @@
+body {
+    --bg-color: #FFFFFF;
+    background-color: var(--bg-color);
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: calc(1rem + 0.25vh);
+    line-height: 1.5;
+}
+  @media screen and (max-width: 400px) {
+    body {
+      max-width: 98%;
+    }
+}
+  button {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem 0.3rem;
+  }
+  button[data-type="moon"]::before {
+    content: '\1F31C';
+  }
+
+.nav {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* border-radius: 50%; */
+  background-color: rgb(231, 146, 146);
+  display: block;
+}
+.nav:hover{
+  background-color: rgb(97, 129, 219);
+
+}
+a {
+  font-family:'Courier New', Courier, monospace;
+  line-height: 95px;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 15px;
+}

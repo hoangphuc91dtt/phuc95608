@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>F8 - Shop</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="demo.css">
+    </head>
+    <body>
+        <h5> 
+     <!-- 1>Thẻ HTML thông dụng         --> 
+        1. h1 - h6 - heading
+        2. p - paragraph
+        3. img - image
+        4. a - anchor
+        5. ul, li - unordered list
+        6. table
+        7. input
+        8. button
+        9. div
+        10. sub H20 
+        11.sup x2 
+        12. i em in nghiên
+        13.span không xuống dòng
+     <!-- 2>Attribute thuộc tính --> 
+        1.title (để trỏ chuột vào sẽ hiên note)
+        2.....
+
+    
+
+     <!-- sub H20 -->
+     <!-- sup x2 -->
+
+
+
+     <!-- 3>CSS in HTML --> 
+     
+        1.Internal (style)
+        2.External (liink css)
+        3.Inline   (in tag)
+
+
+    <!-- 4>CSS selectors -->
+    1. #ID (chỉ duy nhất k trùng )
+    2. .class ()
+
+    Selector	              Ví dụ	                                       Mô tả
+    .class	                .intro	                      Chọn tất cả các thẻ có class=“intro”
+    .class1.class2	        .name1.name2	              Chọn tất cả các thẻ có cả name1 và name2 được đặt trong thuộc tính class của nó
+    .class1 .class2         .name1 .name2	              Chọn tất cả các thẻ có class=“name2” là con của một phần tử có class=“name1”
+    *	                    *	                          Chọn tất cả các thẻ
+    element	                h2                            Chọn tất cả các thẻ h2
+    element.class           div.box	                      Chọn tất cả thẻ div có class=“box”
+    element, element        div, h2	                      Chọn tất cả thẻ div và h2
+    element element	        div p	                      Chọn tất cả thẻ p trong thẻ div
+    element > element       div > p	                      Chọn tất cả thẻ p là con trực tiếp của thẻ div
+    element + element       div + p	                      Chọn thẻ p đứng liền kề sau thẻ div
+    element ~ element       div ~ p	                      Chọn tất cả thẻ p đứng sau thẻ div
+
+
+    <!-- 5>Độ ưu tiên trong CSS    -->
+    1. Internal, External?
+    2. Inline - 1000
+    3. #id - 100
+    4. .class - 10
+    5. tag - 1
+    6. Equal specificity?
+    7. Universal selector and inherited?
+
+    <!-- 6>Đặt biến trong CSS -->
+    1. :root {
+        --text-color: red;
+    }
+
+    h1 {
+        color : var(--text-color);
+    }
+
+     <!-- 7> Đơn vị    -->
+    -Absolute units
+    
+    • px
+    • pt
+    • cm
+    • mm
+    • inch
+    • pc
+
+    -Relative units?
+    • %
+    • rem
+    • em
+    • vw
+    • vh
+    • vmin
+    • vmax
+    • ex
+    • ch
+
+    <!-- 8> CSS functions -->
+    
+    <!-- EX -->
+    a::after {
+        content :"( "attr(href)" )"
+        conten  :    attr(href)
+    }
+    <a href="http:......">Học lập trình</a>
+
+    <!-- 9>CSS pseudo-classes (lớp giả) -->
+    • :root ()
+    • :hover (đưa chuột vào sẽ hiện)          .box:hover
+    • :active(nhập vào sẽ hiện)
+    • :first-child
+    • :last-child 
+
+    <!-- 10>CSS pseudo-elements -->
+    ::before
+    ::after
+    ::first-letter (chữ cái đầu )
+    ::first-line    (dòng đầu)
+    ::selection     
+
+    <!-- 11>Đệm (padding) -->
+        .box3 {
+            background-color: Ofirebrick;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+        .box {
+            padding :10px 12px;
+        }
+    
+
+    <!-- 12>Viền (border) -->
+    .box3 {
+        background-color: #firebrick;
+        padding: 10px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: #333;
+    }
+
+    <!-- 13>khoảng lề  (margin) -->
+
+    .box3 {
+        background-color: Ofirebrick;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .box {
+        margin :10px ;
+    }
+
+    14> Box-sizing 
+    .box {
+        Box-sizing :border-box ;
+    }
+
+
+    
+
+    
+
+
+
+
+            </h5>
+    </body>
+</html>
+
+

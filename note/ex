@@ -1,0 +1,35 @@
+display: inline-block; /*nằm lên cùng 1 hàng*/
+color: aliceblue;      /*màu chữ*/
+    text-decoration: none;   /* Bỏ gạch Chân */
+    line-height: 46px;       /* Căn chữ ra giữa khung */
+
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em; /*tăng lên 1.5 lần */
+    font-weight: 900; /* chữ đậm */
+    text-align: center; /* canh lề */
+
+    text-transform: uppercase; /* in hoa */
+    
+    text-transform: capitalize; /* chữ cái đầu */
+    
+}   
+/* 
+1.tu ngoai vao trong
+2.Tu tren xuong duoi 
+3.Tu tong quan den chi tiet 
+*/
+
+
+
+/* 
+1.vi Tri
+2.kich thuoc (witdh, height)
+3.Mau sac
+4.Kieu Dang (kieu chu. hinh cn, hinh vuong.DOC NGANG)
+*/
